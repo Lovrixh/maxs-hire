@@ -14,7 +14,7 @@
 
   --amber:      #ffc61a;   /* Max's Hire brand yellow ("I got the juice") */
   --amber-600:  #f2b400;
-  --amber-700:  #a97400;   /* readable gold for text on white */
+  --amber-700:  #8a5d00;   /* readable gold for text on white */
   --amber-soft: #fff7d6;
 
   --green:  #1f9d55;
@@ -430,3 +430,11 @@ details.qa > summary::after { content: "+"; color: var(--amber-700); font-size: 
 details.qa[open] > summary::after { content: "–"; }
 details.qa > p { margin: 0 1.2rem 1.1rem; color: var(--text-soft); }
 .cta { background: var(--ink); color: #fff; padding-block: clamp(3rem, 6vw, 5rem); }
+
+/* contrast + footer heading fixes */
+.footer__grid h2 { color: #fff; font-size: .85rem; letter-spacing: .1em; text-transform: uppercase; margin-bottom: .9rem; }
+.footer__grid a.btn--primary { color: var(--ink); display: inline-flex; }
+.footer__bar { color: #9aa1ad; }
+.calc .form__note { color: var(--text-mute); }
+.review__badge { color: #17773f; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
